@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MexicanRestaurant</string>
+    <string-array name="Menu">
+        <item>Nachos</item>
+        <item>Burritos</item>
+        <item>Drinks</item>
+    </string-array>
+</resources>
