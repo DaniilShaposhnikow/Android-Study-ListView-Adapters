@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MexicanRestaurant">
         <activity
+            android:name=".BurritosCategory"
+            android:exported="true" />
+        <activity
             android:name=".NachosActivity"
             android:exported="true" />
         <activity

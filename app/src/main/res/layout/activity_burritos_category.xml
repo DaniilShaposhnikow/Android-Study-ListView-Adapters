@@ -7,13 +7,25 @@
     tools:context=".BurritosCategoryActivity">
 
     <ListView
-        android:id="@+id/list_burritos"
-        android:layout_width="388dp"
-        android:layout_height="229dp"
+        android:id="@+id/listburritos"
+        android:layout_width="344dp"
+        android:layout_height="299dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintHorizontal_bias="0.626"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057" />
+        app:layout_constraintVertical_bias="0.738" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="392dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/mexico" />
 </androidx.constraintlayout.widget.ConstraintLayout>
